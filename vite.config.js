@@ -9,5 +9,8 @@ export default defineConfig({
   }, 
   optimizeDeps: {
     include: ['recharts'],  // Force Vite to optimize recharts
+  },  
+  build: {
+    outDir: 'dist', // This is the default, ensure it's set
   },
 })
