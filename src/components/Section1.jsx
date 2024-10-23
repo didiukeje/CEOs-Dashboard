@@ -4,7 +4,7 @@ import ApinHeader from './ApinHeader';
 
 const Section1 = () => {
   return (
-    <div className="flex w-full px-8 py-6 space-x-6">
+    <div className="flex w-full px-8 py-6 space-x-6 height=">
       {/* Apin Header on the left */}
       <div className="flex-shrink-0">
         <ApinHeader />

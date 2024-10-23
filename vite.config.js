@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     hmr: true,  // Ensure HMR is enabled
+  }, 
+  optimizeDeps: {
+    include: ['recharts'],  // Force Vite to optimize recharts
   },
 })
