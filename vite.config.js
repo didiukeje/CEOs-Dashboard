@@ -11,6 +11,6 @@ export default defineConfig({
     include: ['recharts'],  // Force Vite to optimize recharts
   },  
   build: {
-    outDir: 'dist', // This is the default, ensure it's set
+    outDir: 'public', // This is the default, ensure it's set
   },
 })
