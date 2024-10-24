@@ -8,7 +8,7 @@ const TxCurr = () => {
         <h2 className="text-xl font-bold text-gray-800">TxCurr</h2>
   
         <div className="flex items-end gap-8">
-          <img src={BulletChart} alt="Bulleted Chart" className="w-[180px] h-[90px] p-4" />
+            {/*  <img src={BulletChart} alt="Bulleted Chart" className="w-[180px] h-[90px] p-4" /> */}
           <DonutPieChart />
         </div>
       </div>
