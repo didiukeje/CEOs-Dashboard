@@ -13,7 +13,7 @@ const Pvls = () => {
 
       {/* Bullet Chart and Donut Pie Chart side by side */}
       <div className="flex items-end gap-12">
-        <img src={BulletChart} alt="Bulleted Chart" className="w-[180px] h-[70px]" />
+        {/* <img src={BulletChart} alt="Bulleted Chart" className="w-[180px] h-[70px]" />*/}
         <DonutPieChart />
       </div>
 
